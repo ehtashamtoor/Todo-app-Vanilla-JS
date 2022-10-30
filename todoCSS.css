@@ -1,0 +1,114 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 3rem;
+    background: rgba(12, 176, 166, 0.7);
+}
+
+*{
+    margin: 0;
+}
+
+.appContainer{
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    background: rgba(20, 123, 233, 0.7);
+    box-shadow: 2px 2px 5px black;
+    text-align: center;
+}
+#heading::after{
+    content: "";
+    display: block;
+    width: 250px;
+    height: 7px;
+    border-radius: 10px;
+    background: rgb(10, 80, 108);
+    margin-bottom: 1rem;
+}
+
+#form{
+    text-align: center;
+}
+/* show alerts */
+.alert{
+    text-align: center;
+    margin-bottom: 5px;
+    background: orange;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+.showAlert{
+    visibility: initial;
+}
+
+input{
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.btn{
+    padding: 5px;
+    background: orange;
+    color: white;
+    border: 2px solid orange;
+    font-weight: bolder;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background: none;
+    transition: 0.5s;
+    color: orange;
+    cursor: pointer;
+}
+
+
+
+
+
+
+table{
+    width: 20vw;
+    margin: 1rem auto;
+
+}
+
+table thead tr th{
+    border-bottom: 2px solid gray;
+}
+
+
+.todo{
+    color: bisque;
+}
+
+
+
+.edit{
+    color: rgb(101, 159, 13);
+    border: none;
+    background: bisque;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.edit:hover{
+    color: green;
+    cursor: pointer;
+}
+
+
+.del{
+    color: red;
+    border: none;
+    margin-left: 2px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.del:hover{
+    color: rgb(170, 16, 16);
+    cursor: pointer;
+}
